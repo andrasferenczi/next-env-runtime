@@ -5,11 +5,12 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "bin": {
-    "next-env-runtime": ""
+    "next-env-runtime": "dist/cli.js"
   },
   "scripts": {
     "prepublish": "npm run build",
     "build": "tsc",
+    "watch": "tsc -w",
     "prettier": "prettier --write ../..",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
