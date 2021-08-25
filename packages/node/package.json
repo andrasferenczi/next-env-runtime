@@ -1,0 +1,22 @@
+{
+  "name": "next-env-runtime",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "next-env-runtime": ""
+  },
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "tsc",
+    "prettier": "prettier --write ../..",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^2.3.2",
+    "typescript": "^4.3.5"
+  }
+}
